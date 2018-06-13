@@ -9,7 +9,6 @@
 */
 
 /* My solution */
-
 var currentDate = new Date();
 var dateDetails = {
     day: currentDate.getDay(),
@@ -58,6 +57,7 @@ console.log(`Today is : ${dayString}`);
 console.log(`Current time is : ${dateDetails.hour} ${prepand} : ${dateDetails.minutes} : ${dateDetails.seconds}`);
 console.log('');
 console.log('');
+
 
 /* Solution from site */
 var today = new Date();
