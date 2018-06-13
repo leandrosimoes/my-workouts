@@ -9,6 +9,7 @@
 */
 
 /* My solution */
+console.log('My solution:')
 function veriyfIfIsALeapYear(year = new Date().getFullYear()) {
     let isLeapYear = (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
     console.log(`${year}${isLeapYear ? ' is ' : ' is not '}a leap year!`);
@@ -19,6 +20,7 @@ console.log('')
 console.log('')
 
 /* Solution from site */
+console.log('Solution from website:')
 var year = window.prompt("Input a Year : ");
 var x = (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
 console.log(x);
