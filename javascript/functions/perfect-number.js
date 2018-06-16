@@ -49,7 +49,6 @@ console.log('')
 
 
 /* Solution from site */
-console.log('Solution from website:')
 function is_perfect(number) {
     var temp = 0;
     for (var i = 1; i <= number / 2; i++) {
@@ -65,6 +64,8 @@ function is_perfect(number) {
         console.log(number + " is not a perfect number.");
     }
 }
+
+console.log('Solution from website:')
 numbers.forEach(is_perfect);
 console.log('')
 console.log('')

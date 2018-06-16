@@ -39,7 +39,6 @@ console.log('')
 
 
 /* Solution from site */
-console.log('Solution from website:')
 function amountTocoins(amount, coins) {
     if (amount === 0) {
         return [];
@@ -55,6 +54,8 @@ function amountTocoins(amount, coins) {
         }
     }
 }
+
+console.log('Solution from website:')
 console.log(amountTocoins(46, [25, 10, 5, 2, 1]))
 console.log('')
 console.log('')
